@@ -1,4 +1,3 @@
-import "./Projetos.css";
 import Footer from "./componentes/components/Footer";
 import Header from "./componentes/components/Header";
 import Landing from "./componentes/components/Landing";
