@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* FONTE INTER */
+    font-family: "Inter", sans-serif;
+
+    /* PALETA DE CORES */
+    --cor-preto: #181818;
+    --cor-laranja: #FF7D00;
+    --cor-amarelo: #FFB327;
+    --cor-azul-claro: #419CBF;
+    --cor-azul-escuro: #021B3B;
+    --cor-branco: #F5F5F5;
+
+    --sb-track-color: #f5f5f5;
+    --sb-thumb-color: #419CBF;
+    --sb-size: 15px;
+}
+
+body::-webkit-scrollbar {
+    width: var(--sb-size)
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+
+}
+
+@supports not selector(::-webkit-scrollbar) {
+    body {
+        scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+    }
+}

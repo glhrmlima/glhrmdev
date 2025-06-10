@@ -1,0 +1,98 @@
+.skills-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-cinza);
+}
+
+.skills-div {
+    width: 350px;
+    padding: 30px 10px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-branco);
+    border-radius: 20px;
+
+    box-shadow: 7px 7px 0px 0px var(--cor-azul-claro);
+}
+
+.skills-section h4 {
+    font-family: "Space Mono", monospace;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 30px;
+
+    padding-right: 1ch;
+    border-right: .15em solid var(--cor-amarelo);
+
+    animation:
+        blink-caret .75s step-end infinite;
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: var(--cor-amarelo);
+    }
+}
+
+.skills-icons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.skills-div img {
+    max-height: 40px;
+}
+
+@media screen and (min-width: 1024px) {
+    .skills-section {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .skills-div {
+        width: 1000px;
+        padding: 50px 10px;
+        margin: 60px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--cor-branco);
+        border-radius: 20px;
+
+        box-shadow: 10px 10px 0px 0px var(--cor-azul-claro);
+    }
+
+    .skills-section h4 {
+        font-family: "Space Mono", monospace;
+        font-size: 24px;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+
+
+    .skills-icons {
+        gap: 25px;
+    }
+
+    .skills-div img {
+        max-height: 70px;
+    }
+}

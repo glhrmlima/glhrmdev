@@ -1,0 +1,25 @@
+.footer-section {
+    background-color: var(--cor-azul-claro);
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    line-height: 0;
+    padding: 15px 0;
+    color: var(--cor-branco);
+}
+
+.footer-autoria {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .footer-section {
+        flex-direction: row;
+        gap: 15px;
+    }
+}

@@ -1,0 +1,6 @@
+body {
+    background-color: var(--cor-preto);
+    background-image: url("./componentes/svgs/dot.svg");
+    background-size: 20px;
+    background-blend-mode: multiply;
+}
