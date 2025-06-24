@@ -4,13 +4,14 @@ import "./index.css";
 import App from "./App.jsx";
 import { BrowserRouter, Routes, Route } from "react-router";
 import Projetos from "./Projetos.jsx";
+import Contato from "./Contato.jsx";
 
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/projetos" element={<Projetos />} />
-      <Route path="/contato" element={<App />} />
+      <Route path="/contato" element={<Contato />} />
     </Routes>
   </BrowserRouter>
 );

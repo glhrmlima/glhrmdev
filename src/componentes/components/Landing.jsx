@@ -22,13 +22,25 @@ export default function Landing() {
             Tecnologias mais utilizadas: <span>React + Tailwind.</span>
           </p>
           <div className="landing-social">
-            <a href="http://linkedin.com/in/guilherme-lo">
+            <a
+              href="http://linkedin.com/in/guilherme-lo"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <LinkedinIcon strokeWidth={1.5} />
             </a>
-            <a href="http://github.com/glhrmlima">
+            <a
+              href="http://github.com/glhrmlima"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <GithubIcon strokeWidth={1.5} />
             </a>
-            <a href="http://instagram.com/guidolimaoliveira">
+            <a
+              href="http://instagram.com/guidolimaoliveira"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <InstagramIcon strokeWidth={1.5} />
             </a>
           </div>

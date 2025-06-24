@@ -1,13 +1,13 @@
 import Footer from "./componentes/components/Footer";
 import Header from "./componentes/components/Header";
-import Landing from "./componentes/components/Landing";
+import ProjetosLanding from "./componentes/components/ProjetosLanding";
 import ProjetosLista from "./componentes/components/ProjetosLista";
 
 export default function Projetos() {
   return (
     <>
       <Header />
-      <Landing />
+      <ProjetosLanding />
       <ProjetosLista />
       <Footer />
     </>
